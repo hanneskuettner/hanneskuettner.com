@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css">
+		body {
+			background-color: #393E41;
+			color: rgba(0,0,0,0);
+		}
+
+		a {
+			color: rgba(0,0,0,0);
+		}
+
+		hr {
+			background-image: url('img/hr.png');
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: center center;
+			height: auto;
+			width: 1000px;
+
+			padding: 5px;
+			padding-top: 10px;
+			margin: 0 auto;
+
+			border: none;
+		}
+
+		#menu {
+			transform: scale(0.4, 0.4);
+			margin-left: 20px;
+		}
+
+		#menu div{
+			top: 80px;		
+			position: absolute;
+		}
+
+		#menu #home{
+			background: url('img/menu.png') 0 0;
+			height: 60px;
+			width: 300px;
+		}
+
+		#menu #home:hover{
+			background-position: 0 59px;
+		}
+
+		#menu #projects{
+			background: url('img/menu.png') 300px -1px;
+			left: 306px;
+			height: 60px;
+			width: 300px;
+		}
+
+		#menu #projects:hover{
+			background-position: 300px 57px;
+		}
+
+
+		#divider {
+			position: relative;
+			top: 50px;
+		}
+
+		#content {
+			background-image: url('img/Website.png');
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center center;
+			height: 0;
+			width: 1000px;
+			padding-bottom: 66%;
+			padding-top: 145px;
+			padding-left: 270px;
+			margin: -30px auto;
+
+			font-family: monospace;
+			font-size: 23px;
+			line-height: 30.5px;
+			letter-spacing: -.2px;
+
+		}
+
+		a::selection,
+		#content::selection,
+		#content br::selection
+		{
+			background-color: #777;
+		}
+
+		</style>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<div id="menu"><div id="home"></div><div id="projects"></div></div>
+		<hr id="divider"/>
+		<div id="content">
+			Hannes Küttner<br/>
+			Software Engineer / Code Magician<br/>
+			<br/>
+			<a href="http://github.com/hanneskuettner">github</a><br/>
+			twitter<br/>
+			email<br/>
+			<br/>
+			thing I love:<br/>
+			- git<br/>
+			- linux<br/>
+			- python<br/>
+			<br/>
+			languages I can do stuff in:<br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;Python&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+++++<br/>
+		</div>
+	</body>	
+</html>
